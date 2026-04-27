@@ -5,9 +5,13 @@ My project will be about soccer
 
 Use [Markdown](https://www.markdownguide.org/basic-syntax) to format appropriately.
 ## Final Project Description
-_Write your project description here_
+_My project will work as a calculator and a stat tracker focused in
+soccer. It will track specific stats such as goals, assists, aerial
+duels / won, dribbles / successful, etc. The user enters the data 
+and clicks on the calculate button and you get certain stats in percentage
+and the match impact score out of 10 of the player._
 
 ## GUI Wireframe
 _Embed your wireframe image(s) here! Here is an example_
 
-![Silly cat](silly-cat.webp)
+![Silly cat](IMG_6702.PNG)
