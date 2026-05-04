@@ -14,4 +14,5 @@ and the match impact score out of 10 of the player._
 ## GUI Wireframe
 _Embed your wireframe image(s) here! Here is an example_
 
-![Silly cat](IMG_6702.PNG)
+![Silly cat](IMG_6768.PNG)
+![Silly cat](IMG_6769.PNG)
