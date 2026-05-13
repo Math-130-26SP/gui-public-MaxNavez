@@ -76,13 +76,32 @@ public class HelloController {
         System.out.println(tacklePer.getText());
         System.out.println(matchImpactScore.getText());
 
-    double totals = Double.parseDouble(passes.getText());
-    double completed = Double.parseDouble(completedPasses.getText());
+        double completed;
+        double totals;
+
+        try {
+            completed = Double.parseDouble(completedPasses.getText());
+            totals = Double.parseDouble(passes.getText());
+            if (totals > 0) {
+                double porcentaje = (completed / totals) * 100;
+                passPer.setText(String.format("%.2f%%", porcentaje));
+            } else {
+                passPer.setText("0%");
+            }
+        } catch (NumberFormatException e) {
+            System.err.println("Enter valid values");
+        }
+
+        completed = Double.parseDouble(shotsOnTarget.getText());
+        totals = Double.parseDouble(shots.getText());
+
         if (totals > 0) {
             double porcentaje = (completed / totals) * 100;
-            passPer.setText(String.format("%.2f%%", porcentaje));
+            shotPer.setText(String.format("%.2f%%", porcentaje));
         } else {
-            passPer.setText("0%");
+            shotPer.setText("0%");
         }
     }
+
+
 }
