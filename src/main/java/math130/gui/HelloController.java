@@ -76,5 +76,13 @@ public class HelloController {
         System.out.println(tacklePer.getText());
         System.out.println(matchImpactScore.getText());
 
+    double totals = Double.parseDouble(passes.getText());
+    double completed = Double.parseDouble(completedPasses.getText());
+        if (totals > 0) {
+            double porcentaje = (completed / totals) * 100;
+            passPer.setText(String.format("%.2f%%", porcentaje));
+        } else {
+            passPer.setText("0%");
+        }
     }
 }

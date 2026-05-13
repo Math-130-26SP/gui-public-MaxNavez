@@ -5,300 +5,306 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="math130.gui.HelloController">
+
+<StackPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="math130.gui.HelloController">
    <children>
-      <VBox layoutY="47.0" prefHeight="404.0" prefWidth="128.0">
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="782.0">
          <children>
-            <Label alignment="TOP_LEFT" prefHeight="18.0" prefWidth="42.0" text="Name">
-               <VBox.margin>
-                  <Insets bottom="5.0" left="40.0" right="2.0" top="5.0" />
-               </VBox.margin>
+            <VBox layoutY="47.0" prefHeight="404.0" prefWidth="128.0">
+               <children>
+                  <Label alignment="TOP_LEFT" prefHeight="18.0" prefWidth="42.0" text="Name">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="40.0" right="2.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="50.0" layoutY="15.0" prefHeight="22.0" prefWidth="54.0" text="Position">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="50.0" layoutY="15.0" prefHeight="22.0" prefWidth="62.0" text="Number">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="61.0" prefHeight="22.0" prefWidth="62.0" text="Goals">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="6.0" left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="84.0" prefHeight="22.0" prefWidth="62.0" text="Assists">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="40.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="15.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="106.0" prefHeight="23.0" prefWidth="198.0" text="Passes">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="128.0" prefHeight="23.0" prefWidth="198.0" text="/">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="152.0" prefHeight="23.0" prefWidth="198.0" text="Completed">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="40.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="20.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="175.0" prefHeight="23.0" prefWidth="198.0" text="Shots ">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="198.0" prefHeight="23.0" prefWidth="198.0" text="/">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="221.0" prefHeight="23.0" prefWidth="198.0" text="On target">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="244.0" prefHeight="23.0" prefWidth="198.0" text="Dribbles">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="268.0" prefHeight="23.0" prefWidth="198.0" text="/">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="268.0" prefHeight="23.0" prefWidth="198.0" text="Completed ">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="40.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Button layoutX="393.0" layoutY="391.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="88.0" text="Calculate">
                <font>
-                  <Font size="15.0" />
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="393.0" layoutY="443.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="88.0" text="Reset">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="262.0" prefHeight="36.0" prefWidth="215.0" text="Stat Tracker M5">
+               <font>
+                  <Font size="30.0" />
                </font>
             </Label>
-            <Label alignment="TOP_LEFT" layoutX="50.0" layoutY="15.0" prefHeight="22.0" prefWidth="54.0" text="Position">
+            <VBox layoutX="362.0" layoutY="56.0" prefHeight="350.0" prefWidth="89.0">
+               <children>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="106.0" prefHeight="23.0" prefWidth="198.0" text="Aerial Duels">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="128.0" prefHeight="23.0" prefWidth="198.0" text="/">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="152.0" prefHeight="23.0" prefWidth="198.0" text="Won">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="175.0" prefHeight="23.0" prefWidth="198.0" text="Tackles">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="198.0" prefHeight="23.0" prefWidth="198.0" text="/ ">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="221.0" prefHeight="23.0" prefWidth="198.0" text="Succesful">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="128.0" layoutY="47.0" prefHeight="398.0" prefWidth="100.0">
+               <children>
+                  <TextField fx:id="name" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="2.0" top="4.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="position" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="number" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="8.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="goals" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="6.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="assists" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="passes" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="13.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="completedPasses" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="23.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="shots" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="shotsOnTarget" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="17.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="dribbles" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="17.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="completedDribbles" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0" />
+               </children>
+            </VBox>
+            <VBox layoutX="478.0" layoutY="56.0" prefHeight="193.0" prefWidth="100.0">
+               <children>
+                  <TextField fx:id="aerialDuels" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="17.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="aerialDuelsWon" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tackles" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="succesfulTackles" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0" />
+               </children>
+            </VBox>
+            <VBox layoutX="240.0" layoutY="47.0" prefHeight="387.0" prefWidth="100.0">
+               <children>
+                  <TextField fx:id="passPer" editable="false" onAction="#onEnter">
+                     <VBox.margin>
+                        <Insets bottom="60.0" top="190.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="shotPer" editable="false" onAction="#onEnter">
+                     <VBox.margin>
+                        <Insets bottom="60.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="dribblesPer" editable="false" onAction="#onEnter" />
+               </children>
+            </VBox>
+            <VBox layoutX="612.0" layoutY="56.0" prefHeight="387.0" prefWidth="100.0">
+               <children>
+                  <TextField fx:id="aerialPer" editable="false" onAction="#onEnter">
+                     <VBox.margin>
+                        <Insets bottom="70.0" top="13.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tacklePer" editable="false" onAction="#onEnter">
+                     <VBox.margin>
+                        <Insets bottom="60.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+            <Label layoutX="584.0" layoutY="391.0" text="M.I.S">
                <font>
-                  <Font size="15.0" />
+                  <Font size="22.0" />
                </font>
-               <VBox.margin>
-                  <Insets bottom="5.0" left="40.0" />
-               </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" layoutX="50.0" layoutY="15.0" prefHeight="22.0" prefWidth="62.0" text="Number">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets bottom="20.0" left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="61.0" prefHeight="22.0" prefWidth="62.0" text="Goals">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets bottom="6.0" left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="84.0" prefHeight="22.0" prefWidth="62.0" text="Assists">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets bottom="5.0" left="40.0" />
-               </VBox.margin>
-               <padding>
-                  <Insets bottom="15.0" />
-               </padding>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="106.0" prefHeight="23.0" prefWidth="198.0" text="Passes">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="128.0" prefHeight="23.0" prefWidth="198.0" text="/">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="152.0" prefHeight="23.0" prefWidth="198.0" text="Completed">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets bottom="5.0" left="40.0" />
-               </VBox.margin>
-               <padding>
-                  <Insets bottom="20.0" />
-               </padding>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="175.0" prefHeight="23.0" prefWidth="198.0" text="Shots ">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="198.0" prefHeight="23.0" prefWidth="198.0" text="/">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="221.0" prefHeight="23.0" prefWidth="198.0" text="On target">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets bottom="20.0" left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="244.0" prefHeight="23.0" prefWidth="198.0" text="Dribbles">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="268.0" prefHeight="23.0" prefWidth="198.0" text="/">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="40.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="268.0" prefHeight="23.0" prefWidth="198.0" text="Completed ">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="40.0" />
-               </VBox.margin>
-            </Label>
+            <TextField fx:id="matchImpactScore" editable="false" layoutX="533.0" layoutY="430.0" onAction="#onEnter" promptText="\%" text="\%" />
          </children>
-      </VBox>
-      <Button layoutX="393.0" layoutY="391.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="88.0" text="Calculate">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
-      <Button layoutX="393.0" layoutY="443.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="88.0" text="Reset">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
-      <Label layoutX="261.0" layoutY="10.0" prefHeight="36.0" prefWidth="215.0" text="Stat Tracker M5">
-         <font>
-            <Font size="30.0" />
-         </font>
-      </Label>
-      <VBox layoutX="362.0" layoutY="56.0" prefHeight="350.0" prefWidth="89.0">
-         <children>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="106.0" prefHeight="23.0" prefWidth="198.0" text="Aerial Duels">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="128.0" prefHeight="23.0" prefWidth="198.0" text="/">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="152.0" prefHeight="23.0" prefWidth="198.0" text="Won">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets bottom="20.0" />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="175.0" prefHeight="23.0" prefWidth="198.0" text="Tackles">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="198.0" prefHeight="23.0" prefWidth="198.0" text="/ ">
-               <font>
-                  <Font size="15.0" />
-               </font>
-               <VBox.margin>
-                  <Insets />
-               </VBox.margin>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="221.0" prefHeight="23.0" prefWidth="198.0" text="Succesful">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Label>
-         </children>
-      </VBox>
-      <VBox layoutX="128.0" layoutY="47.0" prefHeight="398.0" prefWidth="100.0">
-         <children>
-            <TextField fx:id="name" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="2.0" top="4.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="position" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="2.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="number" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="8.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="goals" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="6.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="assists" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="20.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="passes" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="13.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="completedPasses" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="23.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="shots" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="15.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="shotsOnTarget" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="17.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="dribbles" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="17.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="completedDribbles" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0" />
-         </children>
-      </VBox>
-      <VBox layoutX="478.0" layoutY="56.0" prefHeight="193.0" prefWidth="100.0">
-         <children>
-            <TextField fx:id="aerialDuels" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="17.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="aerialDuelsWon" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="20.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="tackles" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0">
-               <VBox.margin>
-                  <Insets bottom="15.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="succesfulTackles" onAction="#onEnter" prefHeight="0.0" prefWidth="100.0" />
-         </children>
-      </VBox>
-      <VBox layoutX="240.0" layoutY="47.0" prefHeight="387.0" prefWidth="100.0">
-         <children>
-            <TextField fx:id="passPer" onAction="#onEnter">
-               <VBox.margin>
-                  <Insets bottom="60.0" top="190.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="shotPer" onAction="#onEnter">
-               <VBox.margin>
-                  <Insets bottom="60.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="dribblesPer" onAction="#onEnter" />
-         </children>
-      </VBox>
-      <VBox layoutX="612.0" layoutY="56.0" prefHeight="387.0" prefWidth="100.0">
-         <children>
-            <TextField fx:id="aerialPer" onAction="#onEnter">
-               <VBox.margin>
-                  <Insets bottom="70.0" top="13.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="tacklePer" onAction="#onEnter">
-               <VBox.margin>
-                  <Insets bottom="60.0" />
-               </VBox.margin>
-            </TextField>
-         </children>
-      </VBox>
-      <Label layoutX="584.0" layoutY="391.0" text="M.I.S">
-         <font>
-            <Font size="22.0" />
-         </font>
-      </Label>
-      <TextField fx:id="matchImpactScore" layoutX="533.0" layoutY="430.0" onAction="#onEnter" promptText="\%" text="\%" />
+      </AnchorPane>
    </children>
-</AnchorPane>
+</StackPane>
